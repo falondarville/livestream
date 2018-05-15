@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Livestream Access</title>
+	<meta name="google-signin-scope" content="profile email">
+	<meta name="google-signin-client_id" content="817122551702-j1lgoe6htqdblc3sge7m3qps4peesqeg.apps.googleusercontent.com">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</head>
+<body>
+
+	<!-- Google log-in button -->
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+	<!-- shows livestream once sign-in is successful -->
+	<div id="data"></div>
+
+	<!-- script tags -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
