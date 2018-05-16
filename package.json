@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/falondarville/livestream#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
     "nodemon": "^1.17.4"
   }
 }

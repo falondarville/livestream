@@ -15,7 +15,12 @@
 	<div class="g-signin2" data-onsuccess="onSignIn"></div>
 
 	<!-- shows livestream once sign-in is successful -->
-	<div id="data"></div>
+	<div id="data">
+		
+		<iframe width="560" height="315" src={{videoIDurl}} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<iframe height="315" src="https://www.youtube.com/live_chat?v={{videoID}}&embed_domain={{hostname}}"></iframe>
+		
+	</div>
 
 	<!-- script tags -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
